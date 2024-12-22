@@ -1539,3 +1539,10 @@
 [2024-12-23T05:01:46.081+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:46.080+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T05:01:46.116+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:46.115+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
 [2024-12-23T05:01:46.146+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.131 seconds
+[2024-12-23T05:02:55.145+0600] {processor.py:186} INFO - Started process (PID=57053) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-23T05:02:55.152+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-23T05:02:55.155+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:55.154+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-23T05:02:55.181+0600] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-23T05:02:55.222+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:55.221+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:02:55.276+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:55.275+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T05:02:55.330+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.200 seconds

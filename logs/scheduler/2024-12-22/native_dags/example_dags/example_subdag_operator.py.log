@@ -1988,3 +1988,15 @@
 [2024-12-23T05:02:24.448+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:24.447+0600] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
 [2024-12-23T05:02:24.448+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:24.448+0600] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
 [2024-12-23T05:02:24.472+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.158 seconds
+[2024-12-23T05:03:28.942+0600] {processor.py:186} INFO - Started process (PID=57263) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-23T05:03:28.949+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-23T05:03:28.952+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:28.951+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-23T05:03:28.989+0600] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-23T05:03:29.016+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:29.015+0600] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-23T05:03:29.050+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:29.049+0600] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-23T05:03:29.055+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:29.055+0600] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-23T05:03:29.057+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:29.057+0600] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-23T05:03:29.065+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:29.065+0600] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-23T05:03:29.074+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:29.073+0600] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-23T05:03:29.074+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:29.074+0600] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-23T05:03:29.093+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.161 seconds

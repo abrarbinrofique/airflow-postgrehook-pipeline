@@ -1660,3 +1660,13 @@
 [2024-12-23T05:02:00.888+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:00.887+0600] {dag.py:4180} INFO - Setting next_dagrun for dataset_s3_bucket_consumer to None, run_after=None
 [2024-12-23T05:02:00.889+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:00.889+0600] {dag.py:4180} INFO - Setting next_dagrun for dataset_s3_bucket_producer to None, run_after=None
 [2024-12-23T05:02:00.925+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_dataset_alias.py took 0.175 seconds
+[2024-12-23T05:03:07.986+0600] {processor.py:186} INFO - Started process (PID=57190) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-12-23T05:03:07.993+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2024-12-23T05:03:07.995+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:07.995+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-12-23T05:03:08.035+0600] {processor.py:925} INFO - DAG(s) 'dataset_s3_bucket_producer', 'dataset_alias_example_alias_producer', 'dataset_s3_bucket_consumer', 'dataset_alias_example_alias_consumer' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-12-23T05:03:08.069+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:08.069+0600] {dag.py:3239} INFO - Sync 4 DAGs
+[2024-12-23T05:03:08.106+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:08.105+0600] {dag.py:4180} INFO - Setting next_dagrun for dataset_alias_example_alias_consumer to None, run_after=None
+[2024-12-23T05:03:08.110+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:08.109+0600] {dag.py:4180} INFO - Setting next_dagrun for dataset_alias_example_alias_producer to None, run_after=None
+[2024-12-23T05:03:08.112+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:08.111+0600] {dag.py:4180} INFO - Setting next_dagrun for dataset_s3_bucket_consumer to None, run_after=None
+[2024-12-23T05:03:08.113+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:08.113+0600] {dag.py:4180} INFO - Setting next_dagrun for dataset_s3_bucket_producer to None, run_after=None
+[2024-12-23T05:03:08.150+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_dataset_alias.py took 0.175 seconds

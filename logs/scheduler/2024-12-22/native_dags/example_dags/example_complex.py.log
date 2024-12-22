@@ -1140,3 +1140,10 @@
 [2024-12-23T05:02:03.461+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:03.461+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T05:02:03.483+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:03.483+0600] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
 [2024-12-23T05:02:03.510+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.135 seconds
+[2024-12-23T05:03:10.614+0600] {processor.py:186} INFO - Started process (PID=57196) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-23T05:03:10.620+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-23T05:03:10.623+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:10.622+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-23T05:03:10.648+0600] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-23T05:03:10.695+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:10.694+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:03:10.717+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:10.717+0600] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-23T05:03:10.745+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.141 seconds

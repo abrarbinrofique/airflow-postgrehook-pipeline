@@ -1470,3 +1470,8 @@
 [2024-12-23T05:02:17.994+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:17.994+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
 [2024-12-23T05:02:17.998+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
 [2024-12-23T05:02:18.013+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2024-12-23T05:02:52.810+0600] {processor.py:186} INFO - Started process (PID=57022) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-12-23T05:02:52.817+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-12-23T05:02:52.819+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:52.818+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-12-23T05:02:52.823+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-12-23T05:02:52.839+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds

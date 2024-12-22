@@ -1168,3 +1168,10 @@
 [2024-12-23T05:01:52.978+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:52.978+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T05:01:53.011+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:53.011+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
 [2024-12-23T05:01:53.044+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.127 seconds
+[2024-12-23T05:03:00.535+0600] {processor.py:186} INFO - Started process (PID=57162) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-12-23T05:03:00.541+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-23T05:03:00.543+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:00.543+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-12-23T05:03:00.557+0600] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-12-23T05:03:00.581+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:00.581+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:03:00.613+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:03:00.612+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T05:03:00.643+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.119 seconds
