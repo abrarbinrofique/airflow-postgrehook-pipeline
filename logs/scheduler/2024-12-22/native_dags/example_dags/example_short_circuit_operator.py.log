@@ -1140,3 +1140,24 @@
 [2024-12-23T04:59:02.450+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:02.449+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T04:59:02.470+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:02.470+0600] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
 [2024-12-23T04:59:02.499+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.109 seconds
+[2024-12-23T05:00:10.384+0600] {processor.py:186} INFO - Started process (PID=56336) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T05:00:10.385+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-12-23T05:00:10.387+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:10.387+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T05:00:10.402+0600] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T05:00:10.434+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:10.434+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:00:10.454+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:10.454+0600] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2024-12-23T05:00:10.482+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.109 seconds
+[2024-12-23T05:01:15.412+0600] {processor.py:186} INFO - Started process (PID=56483) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T05:01:15.419+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-12-23T05:01:15.421+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:15.421+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T05:01:15.437+0600] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T05:01:15.468+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:15.468+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:01:15.491+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:15.490+0600] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2024-12-23T05:01:15.520+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.118 seconds
+[2024-12-23T05:02:26.306+0600] {processor.py:186} INFO - Started process (PID=56931) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T05:02:26.312+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-12-23T05:02:26.314+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:26.313+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T05:02:26.329+0600] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T05:02:26.361+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:26.360+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:02:26.381+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:26.381+0600] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2024-12-23T05:02:26.411+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.116 seconds

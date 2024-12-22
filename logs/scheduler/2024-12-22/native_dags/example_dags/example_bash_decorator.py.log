@@ -1112,3 +1112,24 @@
 [2024-12-23T04:58:49.557+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:49.557+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T04:58:49.579+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:49.579+0600] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
 [2024-12-23T04:58:49.608+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py took 0.122 seconds
+[2024-12-23T04:59:56.578+0600] {processor.py:186} INFO - Started process (PID=56317) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-12-23T04:59:56.585+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-12-23T04:59:56.587+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:56.586+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-12-23T04:59:56.615+0600] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-12-23T04:59:56.651+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:56.650+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T04:59:56.674+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:56.673+0600] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-12-23T04:59:56.702+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py took 0.136 seconds
+[2024-12-23T05:01:03.690+0600] {processor.py:186} INFO - Started process (PID=56463) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-12-23T05:01:03.697+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-12-23T05:01:03.699+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:03.699+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-12-23T05:01:03.724+0600] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-12-23T05:01:03.755+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:03.754+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:01:03.776+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:03.776+0600] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-12-23T05:01:03.803+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py took 0.123 seconds
+[2024-12-23T05:02:13.949+0600] {processor.py:186} INFO - Started process (PID=56901) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-12-23T05:02:13.951+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-12-23T05:02:13.953+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:13.952+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-12-23T05:02:13.975+0600] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-12-23T05:02:14.004+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:14.004+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:02:14.024+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:14.024+0600] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-12-23T05:02:14.050+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py took 0.109 seconds

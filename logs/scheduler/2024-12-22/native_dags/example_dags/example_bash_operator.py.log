@@ -1112,3 +1112,24 @@
 [2024-12-23T04:58:48.304+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:48.304+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T04:58:48.339+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:48.339+0600] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
 [2024-12-23T04:58:48.367+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.145 seconds
+[2024-12-23T04:59:55.305+0600] {processor.py:186} INFO - Started process (PID=56308) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-12-23T04:59:55.311+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-12-23T04:59:55.313+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:55.313+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-12-23T04:59:55.337+0600] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-12-23T04:59:55.377+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:55.376+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T04:59:55.414+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:55.414+0600] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T04:59:55.444+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.150 seconds
+[2024-12-23T05:01:02.425+0600] {processor.py:186} INFO - Started process (PID=56462) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-12-23T05:01:02.431+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-12-23T05:01:02.434+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:02.433+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-12-23T05:01:02.457+0600] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-12-23T05:01:02.496+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:02.495+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:01:02.530+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:02.529+0600] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T05:01:02.558+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.143 seconds
+[2024-12-23T05:02:12.679+0600] {processor.py:186} INFO - Started process (PID=56900) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-12-23T05:02:12.685+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-12-23T05:02:12.687+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:12.686+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-12-23T05:02:12.709+0600] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-12-23T05:02:12.744+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:12.744+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:02:12.777+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:12.777+0600] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T05:02:12.804+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.135 seconds

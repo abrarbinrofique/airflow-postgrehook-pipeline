@@ -1119,3 +1119,24 @@
 [2024-12-23T04:58:40.980+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:40.980+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T04:58:41.015+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:41.014+0600] {dag.py:4180} INFO - Setting next_dagrun for example_branch_operator to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
 [2024-12-23T04:58:41.043+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.152 seconds
+[2024-12-23T04:59:48.466+0600] {processor.py:186} INFO - Started process (PID=56292) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-23T04:59:48.472+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-12-23T04:59:48.474+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:48.474+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-23T04:59:48.502+0600] {processor.py:925} INFO - DAG(s) 'example_branch_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-23T04:59:48.539+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:48.539+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T04:59:48.573+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:48.573+0600] {dag.py:4180} INFO - Setting next_dagrun for example_branch_operator to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T04:59:48.599+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.143 seconds
+[2024-12-23T05:00:54.805+0600] {processor.py:186} INFO - Started process (PID=56446) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-23T05:00:54.812+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-12-23T05:00:54.814+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:54.813+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-23T05:00:54.845+0600] {processor.py:925} INFO - DAG(s) 'example_branch_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-23T05:00:54.884+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:54.884+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:00:54.918+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:54.917+0600] {dag.py:4180} INFO - Setting next_dagrun for example_branch_operator to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T05:00:54.946+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.150 seconds
+[2024-12-23T05:02:06.667+0600] {processor.py:186} INFO - Started process (PID=56862) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-23T05:02:06.669+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-12-23T05:02:06.672+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:06.671+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-23T05:02:06.711+0600] {processor.py:925} INFO - DAG(s) 'example_branch_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-12-23T05:02:06.755+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:06.754+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:02:06.794+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:06.794+0600] {dag.py:4180} INFO - Setting next_dagrun for example_branch_operator to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T05:02:06.825+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.168 seconds

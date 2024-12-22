@@ -1133,3 +1133,31 @@
 [2024-12-23T04:57:59.970+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:57:59.970+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T04:57:59.991+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:57:59.990+0600] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2024-12-23T04:58:00.020+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.120 seconds
+[2024-12-23T04:59:08.212+0600] {processor.py:186} INFO - Started process (PID=56188) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-23T04:59:08.219+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-23T04:59:08.221+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:08.220+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-23T04:59:08.241+0600] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-23T04:59:08.270+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:08.269+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T04:59:08.290+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:08.289+0600] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-23T04:59:08.317+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.115 seconds
+[2024-12-23T05:00:15.667+0600] {processor.py:186} INFO - Started process (PID=56344) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-23T05:00:15.673+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-23T05:00:15.675+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:15.675+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-23T05:00:15.697+0600] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-23T05:00:15.726+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:15.726+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:00:15.748+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:15.748+0600] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-23T05:00:15.778+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.121 seconds
+[2024-12-23T05:01:23.065+0600] {processor.py:186} INFO - Started process (PID=56517) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-23T05:01:23.067+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-23T05:01:23.069+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:23.069+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-23T05:01:23.091+0600] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-23T05:01:23.123+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:23.123+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:01:23.147+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:23.146+0600] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-23T05:01:23.180+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.129 seconds
+[2024-12-23T05:02:33.432+0600] {processor.py:186} INFO - Started process (PID=56951) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-23T05:02:33.439+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-23T05:02:33.442+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:33.441+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-23T05:02:33.463+0600] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-23T05:02:33.491+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:33.491+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:02:33.512+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:33.512+0600] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-23T05:02:33.542+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.119 seconds

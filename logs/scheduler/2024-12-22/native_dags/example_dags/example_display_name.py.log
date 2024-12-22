@@ -1126,3 +1126,24 @@
 [2024-12-23T04:58:15.424+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:15.423+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T04:58:15.445+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:15.444+0600] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
 [2024-12-23T04:58:15.474+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py took 0.105 seconds
+[2024-12-23T04:59:22.285+0600] {processor.py:186} INFO - Started process (PID=56203) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py
+[2024-12-23T04:59:22.287+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-12-23T04:59:22.289+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:22.288+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py
+[2024-12-23T04:59:22.302+0600] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py
+[2024-12-23T04:59:22.326+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:22.325+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T04:59:22.346+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:22.346+0600] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-12-23T04:59:22.374+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py took 0.099 seconds
+[2024-12-23T05:00:31.193+0600] {processor.py:186} INFO - Started process (PID=56382) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py
+[2024-12-23T05:00:31.200+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-12-23T05:00:31.202+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:31.201+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py
+[2024-12-23T05:00:31.214+0600] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py
+[2024-12-23T05:00:31.239+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:31.238+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:00:31.260+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:31.259+0600] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-12-23T05:00:31.289+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py took 0.106 seconds
+[2024-12-23T05:01:38.674+0600] {processor.py:186} INFO - Started process (PID=56533) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py
+[2024-12-23T05:01:38.681+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-12-23T05:01:38.683+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:38.682+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py
+[2024-12-23T05:01:38.697+0600] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py
+[2024-12-23T05:01:38.720+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:38.720+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:01:38.742+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:38.741+0600] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-12-23T05:01:38.771+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py took 0.108 seconds

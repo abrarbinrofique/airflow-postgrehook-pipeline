@@ -1133,3 +1133,24 @@
 [2024-12-23T04:58:06.283+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:06.283+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T04:58:06.302+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:06.302+0600] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
 [2024-12-23T04:58:06.330+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.157 seconds
+[2024-12-23T04:59:13.006+0600] {processor.py:186} INFO - Started process (PID=56193) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-12-23T04:59:13.008+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-12-23T04:59:13.010+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:13.009+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-12-23T04:59:13.029+0600] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-12-23T04:59:13.096+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:13.095+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T04:59:13.114+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:13.114+0600] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-12-23T04:59:13.141+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.145 seconds
+[2024-12-23T05:00:22.003+0600] {processor.py:186} INFO - Started process (PID=56358) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-12-23T05:00:22.005+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-12-23T05:00:22.007+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:22.006+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-12-23T05:00:22.026+0600] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-12-23T05:00:22.094+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:22.094+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:00:22.114+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:22.113+0600] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-12-23T05:00:22.142+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.149 seconds
+[2024-12-23T05:01:28.402+0600] {processor.py:186} INFO - Started process (PID=56524) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-12-23T05:01:28.409+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-12-23T05:01:28.411+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:28.411+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-12-23T05:01:28.431+0600] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-12-23T05:01:28.505+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:28.504+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:01:28.523+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:28.523+0600] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-12-23T05:01:28.552+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.159 seconds

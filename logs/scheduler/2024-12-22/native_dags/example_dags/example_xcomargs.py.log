@@ -1342,3 +1342,27 @@
 [2024-12-23T04:58:24.636+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:24.635+0600] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
 [2024-12-23T04:58:24.642+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:24.641+0600] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
 [2024-12-23T04:58:24.668+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.120 seconds
+[2024-12-23T04:59:31.373+0600] {processor.py:186} INFO - Started process (PID=56223) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-23T04:59:31.379+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-23T04:59:31.382+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:31.381+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-23T04:59:31.399+0600] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-23T04:59:31.430+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:31.429+0600] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-23T04:59:31.450+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:31.450+0600] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-23T04:59:31.455+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:31.455+0600] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-23T04:59:31.480+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.118 seconds
+[2024-12-23T05:00:38.902+0600] {processor.py:186} INFO - Started process (PID=56401) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-23T05:00:38.909+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-23T05:00:38.911+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:38.910+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-23T05:00:38.928+0600] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-23T05:00:38.959+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:38.958+0600] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-23T05:00:38.979+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:38.979+0600] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-23T05:00:38.985+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:38.984+0600] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-23T05:00:39.010+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.118 seconds
+[2024-12-23T05:01:49.131+0600] {processor.py:186} INFO - Started process (PID=56563) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-23T05:01:49.138+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-23T05:01:49.140+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:49.140+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-23T05:01:49.158+0600] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-23T05:01:49.191+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:49.190+0600] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-23T05:01:49.213+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:49.213+0600] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-23T05:01:49.219+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:49.219+0600] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-23T05:01:49.245+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.123 seconds

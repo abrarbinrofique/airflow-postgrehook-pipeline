@@ -1147,3 +1147,24 @@
 [2024-12-23T04:58:29.025+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:29.024+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T04:58:29.045+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:29.045+0600] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
 [2024-12-23T04:58:29.073+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.104 seconds
+[2024-12-23T04:59:35.382+0600] {processor.py:186} INFO - Started process (PID=56239) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-12-23T04:59:35.384+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-12-23T04:59:35.386+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:35.385+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-12-23T04:59:35.399+0600] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-12-23T04:59:35.424+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:35.424+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T04:59:35.444+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:35.444+0600] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-12-23T04:59:35.473+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.101 seconds
+[2024-12-23T05:00:42.915+0600] {processor.py:186} INFO - Started process (PID=56405) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-12-23T05:00:42.922+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-12-23T05:00:42.924+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:42.923+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-12-23T05:00:42.937+0600] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-12-23T05:00:42.962+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:42.961+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:00:42.984+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:42.983+0600] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-12-23T05:00:43.016+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.111 seconds
+[2024-12-23T05:01:54.216+0600] {processor.py:186} INFO - Started process (PID=56599) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-12-23T05:01:54.223+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-12-23T05:01:54.226+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:54.225+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-12-23T05:01:54.240+0600] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-12-23T05:01:54.265+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:54.265+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:01:54.286+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:54.286+0600] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-12-23T05:01:54.317+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.113 seconds

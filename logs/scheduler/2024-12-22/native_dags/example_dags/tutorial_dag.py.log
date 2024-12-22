@@ -1196,3 +1196,24 @@
 [2024-12-23T04:58:23.866+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:23.866+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T04:58:23.887+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:23.887+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2024-12-23T04:58:23.916+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.107 seconds
+[2024-12-23T04:59:30.108+0600] {processor.py:186} INFO - Started process (PID=56222) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T04:59:30.110+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-23T04:59:30.112+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:30.112+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T04:59:30.124+0600] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T04:59:30.148+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:30.148+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T04:59:30.168+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:30.168+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-23T04:59:30.197+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.098 seconds
+[2024-12-23T05:00:37.637+0600] {processor.py:186} INFO - Started process (PID=56400) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T05:00:37.643+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-23T05:00:37.645+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:37.645+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T05:00:37.658+0600] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T05:00:37.682+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:37.682+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:00:37.704+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:37.704+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-23T05:00:37.735+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.108 seconds
+[2024-12-23T05:01:47.850+0600] {processor.py:186} INFO - Started process (PID=56554) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T05:01:47.856+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-23T05:01:47.858+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:47.858+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T05:01:47.871+0600] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T05:01:47.896+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:47.896+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:01:47.917+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:47.917+0600] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-23T05:01:47.948+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.109 seconds

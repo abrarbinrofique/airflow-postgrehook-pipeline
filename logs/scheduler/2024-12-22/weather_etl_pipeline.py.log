@@ -657,3 +657,45 @@
 [2024-12-23T04:58:50.815+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:50.815+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T04:58:50.852+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:58:50.852+0600] {dag.py:4180} INFO - Setting next_dagrun for weather_et_pipeline to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
 [2024-12-23T04:58:50.880+0600] {processor.py:208} INFO - Processing /home/abr/airflow/dags/weather_etl_pipeline.py took 0.129 seconds
+[2024-12-23T04:59:23.492+0600] {processor.py:186} INFO - Started process (PID=56204) to work on /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:59:23.498+0600] {processor.py:914} INFO - Processing file /home/abr/airflow/dags/weather_etl_pipeline.py for tasks to queue
+[2024-12-23T04:59:23.501+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:23.500+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:59:23.521+0600] {processor.py:925} INFO - DAG(s) 'weather_et_pipeline' retrieved from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:59:23.545+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:23.545+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T04:59:23.580+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:23.580+0600] {dag.py:4180} INFO - Setting next_dagrun for weather_et_pipeline to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T04:59:23.608+0600] {processor.py:208} INFO - Processing /home/abr/airflow/dags/weather_etl_pipeline.py took 0.127 seconds
+[2024-12-23T04:59:57.844+0600] {processor.py:186} INFO - Started process (PID=56318) to work on /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:59:57.850+0600] {processor.py:914} INFO - Processing file /home/abr/airflow/dags/weather_etl_pipeline.py for tasks to queue
+[2024-12-23T04:59:57.852+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:57.852+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:59:57.871+0600] {processor.py:925} INFO - DAG(s) 'weather_et_pipeline' retrieved from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:59:57.897+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:57.896+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T04:59:57.934+0600] {logging_mixin.py:190} INFO - [2024-12-23T04:59:57.934+0600] {dag.py:4180} INFO - Setting next_dagrun for weather_et_pipeline to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T04:59:57.961+0600] {processor.py:208} INFO - Processing /home/abr/airflow/dags/weather_etl_pipeline.py took 0.129 seconds
+[2024-12-23T05:00:32.457+0600] {processor.py:186} INFO - Started process (PID=56383) to work on /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T05:00:32.463+0600] {processor.py:914} INFO - Processing file /home/abr/airflow/dags/weather_etl_pipeline.py for tasks to queue
+[2024-12-23T05:00:32.465+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:32.465+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T05:00:32.485+0600] {processor.py:925} INFO - DAG(s) 'weather_et_pipeline' retrieved from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T05:00:32.509+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:32.509+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:00:32.545+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:00:32.545+0600] {dag.py:4180} INFO - Setting next_dagrun for weather_et_pipeline to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T05:00:32.573+0600] {processor.py:208} INFO - Processing /home/abr/airflow/dags/weather_etl_pipeline.py took 0.126 seconds
+[2024-12-23T05:01:04.051+0600] {processor.py:186} INFO - Started process (PID=56465) to work on /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T05:01:04.058+0600] {processor.py:914} INFO - Processing file /home/abr/airflow/dags/weather_etl_pipeline.py for tasks to queue
+[2024-12-23T05:01:04.060+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:04.060+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T05:01:04.079+0600] {processor.py:925} INFO - DAG(s) 'weather_et_pipeline' retrieved from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T05:01:04.103+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:04.103+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:01:04.141+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:04.140+0600] {dag.py:4180} INFO - Setting next_dagrun for weather_et_pipeline to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T05:01:04.168+0600] {processor.py:208} INFO - Processing /home/abr/airflow/dags/weather_etl_pipeline.py took 0.126 seconds
+[2024-12-23T05:01:39.939+0600] {processor.py:186} INFO - Started process (PID=56534) to work on /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T05:01:39.945+0600] {processor.py:914} INFO - Processing file /home/abr/airflow/dags/weather_etl_pipeline.py for tasks to queue
+[2024-12-23T05:01:39.948+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:39.947+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T05:01:39.966+0600] {processor.py:925} INFO - DAG(s) 'weather_et_pipeline' retrieved from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T05:01:39.991+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:39.990+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:01:40.028+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:40.027+0600] {dag.py:4180} INFO - Setting next_dagrun for weather_et_pipeline to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T05:01:40.056+0600] {processor.py:208} INFO - Processing /home/abr/airflow/dags/weather_etl_pipeline.py took 0.127 seconds
+[2024-12-23T05:02:15.222+0600] {processor.py:186} INFO - Started process (PID=56902) to work on /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T05:02:15.223+0600] {processor.py:914} INFO - Processing file /home/abr/airflow/dags/weather_etl_pipeline.py for tasks to queue
+[2024-12-23T05:02:15.225+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:15.224+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T05:02:15.243+0600] {processor.py:925} INFO - DAG(s) 'weather_et_pipeline' retrieved from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T05:02:15.266+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:15.266+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:02:15.301+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:15.300+0600] {dag.py:4180} INFO - Setting next_dagrun for weather_et_pipeline to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T05:02:15.327+0600] {processor.py:208} INFO - Processing /home/abr/airflow/dags/weather_etl_pipeline.py took 0.115 seconds
