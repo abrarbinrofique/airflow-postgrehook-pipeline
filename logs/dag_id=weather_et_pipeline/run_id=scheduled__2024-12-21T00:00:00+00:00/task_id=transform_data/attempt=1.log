@@ -1,0 +1,25 @@
+[2024-12-23T04:44:56.545+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-23T04:44:56.561+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_et_pipeline.transform_data scheduled__2024-12-21T00:00:00+00:00 [queued]>
+[2024-12-23T04:44:56.571+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_et_pipeline.transform_data scheduled__2024-12-21T00:00:00+00:00 [queued]>
+[2024-12-23T04:44:56.571+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-23T04:44:56.586+0600] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): transform_data> on 2024-12-21 00:00:00+00:00
+[2024-12-23T04:44:56.592+0600] {standard_task_runner.py:72} INFO - Started process 53050 to run task
+[2024-12-23T04:44:56.597+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'transform_data', 'scheduled__2024-12-21T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py', '--cfg-path', '/tmp/tmpy4ixkk0r']
+[2024-12-23T04:44:56.599+0600] {standard_task_runner.py:105} INFO - Job 10: Subtask transform_data
+[2024-12-23T04:44:56.652+0600] {task_command.py:467} INFO - Running <TaskInstance: weather_et_pipeline.transform_data scheduled__2024-12-21T00:00:00+00:00 [running]> on host AbrarsPC
+[2024-12-23T04:44:56.742+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_et_pipeline' AIRFLOW_CTX_TASK_ID='transform_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-21T00:00:00+00:00'
+[2024-12-23T04:44:56.743+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-23T04:44:56.744+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-23T04:44:56.744+0600] {logging_mixin.py:190} INFO - Current task name:transform_data state:running start_date:2024-12-22 22:44:56.561786+00:00
+[2024-12-23T04:44:56.744+0600] {logging_mixin.py:190} INFO - Dag name:weather_et_pipeline and current dag run status:running
+[2024-12-23T04:44:56.745+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-23T04:44:56.745+0600] {python.py:240} INFO - Done. Returned value was: {'latitude': '23.8103', 'longitude': '90.4125', 'temperature': 15.8, 'windspeed': 3.7, 'winddirection': 349, 'weathercode': 2}
+[2024-12-23T04:44:56.762+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-23T04:44:56.763+0600] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=weather_et_pipeline, task_id=transform_data, run_id=scheduled__2024-12-21T00:00:00+00:00, execution_date=20241221T000000, start_date=20241222T224456, end_date=20241222T224456
+[2024-12-23T04:44:56.773+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-23T04:44:56.773+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-23T04:44:56.773+0600] {logging_mixin.py:190} INFO - Dag name:weather_et_pipeline queued_at:2024-12-22 22:44:46.973918+00:00
+[2024-12-23T04:44:56.774+0600] {logging_mixin.py:190} INFO - Task hostname:AbrarsPC operator:_PythonDecoratedOperator
+[2024-12-23T04:44:56.810+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-23T04:44:56.834+0600] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-23T04:44:56.839+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

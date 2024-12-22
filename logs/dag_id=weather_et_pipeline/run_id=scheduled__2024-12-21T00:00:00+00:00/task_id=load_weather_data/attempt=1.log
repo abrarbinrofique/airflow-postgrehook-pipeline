@@ -1,0 +1,93 @@
+[2024-12-23T04:45:01.134+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-23T04:45:01.150+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_et_pipeline.load_weather_data scheduled__2024-12-21T00:00:00+00:00 [queued]>
+[2024-12-23T04:45:01.159+0600] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_et_pipeline.load_weather_data scheduled__2024-12-21T00:00:00+00:00 [queued]>
+[2024-12-23T04:45:01.160+0600] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-23T04:45:01.176+0600] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): load_weather_data> on 2024-12-21 00:00:00+00:00
+[2024-12-23T04:45:01.182+0600] {standard_task_runner.py:72} INFO - Started process 53062 to run task
+[2024-12-23T04:45:01.188+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'load_weather_data', 'scheduled__2024-12-21T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py', '--cfg-path', '/tmp/tmpox5h4hnd']
+[2024-12-23T04:45:01.189+0600] {standard_task_runner.py:105} INFO - Job 11: Subtask load_weather_data
+[2024-12-23T04:45:01.246+0600] {task_command.py:467} INFO - Running <TaskInstance: weather_et_pipeline.load_weather_data scheduled__2024-12-21T00:00:00+00:00 [running]> on host AbrarsPC
+[2024-12-23T04:45:01.342+0600] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_et_pipeline' AIRFLOW_CTX_TASK_ID='load_weather_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-21T00:00:00+00:00'
+[2024-12-23T04:45:01.343+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-23T04:45:01.344+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-23T04:45:01.344+0600] {logging_mixin.py:190} INFO - Current task name:load_weather_data state:running start_date:2024-12-22 22:45:01.150725+00:00
+[2024-12-23T04:45:01.344+0600] {logging_mixin.py:190} INFO - Dag name:weather_et_pipeline and current dag run status:running
+[2024-12-23T04:45:01.344+0600] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-23T04:45:01.352+0600] {base.py:84} INFO - Retrieving connection 'supabase_postgre'
+[2024-12-23T04:45:02.013+0600] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/decorators/base.py", line 266, in execute
+    return_value = super().execute(context)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/abr/airflow/dags/weather_etl_pipeline.py", line 114, in load_weather_data
+    transform_weather_data[' winddirection'],
+KeyError: ' winddirection'
+[2024-12-23T04:45:02.020+0600] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-23T04:45:02.020+0600] {logging_mixin.py:190} INFO - Task start:2024-12-22 22:45:01.150725+00:00 end:2024-12-22 22:45:02.019582+00:00 duration:0.868857
+[2024-12-23T04:45:02.020+0600] {logging_mixin.py:190} INFO - Task:<Task(_PythonDecoratedOperator): load_weather_data> dag:<DAG: weather_et_pipeline> dagrun:<DagRun weather_et_pipeline @ 2024-12-21 00:00:00+00:00: scheduled__2024-12-21T00:00:00+00:00, state:running, queued_at: 2024-12-22 22:44:46.973918+00:00. externally triggered: False>
+[2024-12-23T04:45:02.021+0600] {logging_mixin.py:190} INFO - Failure caused by ' winddirection'
+[2024-12-23T04:45:02.021+0600] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=weather_et_pipeline, task_id=load_weather_data, run_id=scheduled__2024-12-21T00:00:00+00:00, execution_date=20241221T000000, start_date=20241222T224501, end_date=20241222T224502
+[2024-12-23T04:45:02.039+0600] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-23T04:45:02.040+0600] {standard_task_runner.py:124} ERROR - Failed to execute job 11 for task load_weather_data (' winddirection'; 53062)
+Traceback (most recent call last):
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/decorators/base.py", line 266, in execute
+    return_value = super().execute(context)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/abr/airflow/dags/weather_etl_pipeline.py", line 114, in load_weather_data
+    transform_weather_data[' winddirection'],
+KeyError: ' winddirection'
+[2024-12-23T04:45:02.082+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-23T04:45:02.099+0600] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-23T04:45:02.100+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

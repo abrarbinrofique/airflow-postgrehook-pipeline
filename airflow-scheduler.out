@@ -1,0 +1,197 @@
+[2024-12-23T02:53:56.741+0600] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
+[2024-12-23T02:53:56.799+0600] {scheduler_job_runner.py:950} INFO - Starting the scheduler
+[2024-12-23T02:53:56.801+0600] {scheduler_job_runner.py:957} INFO - Processing each file at most -1 times
+[2024-12-23T02:53:56.811+0600] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 36449
+[2024-12-23T02:53:56.814+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T02:53:56.819+0600] {settings.py:63} INFO - Configured default timezone UTC
+[2024-12-23T02:53:56.852+0600] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2024-12-23T02:58:57.007+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T03:03:57.193+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T03:08:57.481+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T03:13:57.869+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T03:18:58.157+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T03:23:58.340+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T03:28:58.659+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T03:33:58.934+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T03:38:59.203+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T03:43:59.473+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T03:48:59.664+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T03:53:59.725+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T03:58:59.990+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T04:04:00.256+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T04:05:09.630+0600] {dag.py:4180} INFO - Setting next_dagrun for weather_et_pipeline to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+Dag run  in running state
+Dag information Queued at: 2024-12-22 22:05:09.611388+00:00 hash info: 7d14fdb01be81536b0b694497fd46298
+[2024-12-23T04:05:09.728+0600] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: weather_et_pipeline.extract_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:05:09.729+0600] {scheduler_job_runner.py:507} INFO - DAG weather_et_pipeline has 0/16 running and queued tasks
+[2024-12-23T04:05:09.730+0600] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: weather_et_pipeline.extract_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:05:09.737+0600] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: weather_et_pipeline.extract_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-12-23T04:05:09.738+0600] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='weather_et_pipeline', task_id='extract_weather_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-12-23T04:05:09.739+0600] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'extract_weather_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:05:09.748+0600] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'extract_weather_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:05:12.166+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:05:12.570+0600] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-12-23T04:05:12.571+0600] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:05:12.839+0600] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:05:12.978+0600] {task_command.py:467} INFO - Running <TaskInstance: weather_et_pipeline.extract_weather_data scheduled__2024-12-21T00:00:00+00:00 [queued]> on host AbrarsPC
+[2024-12-23T04:05:13.991+0600] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_et_pipeline', task_id='extract_weather_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=1, map_index=-1)
+[2024-12-23T04:05:14.003+0600] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=weather_et_pipeline, task_id=extract_weather_data, run_id=scheduled__2024-12-21T00:00:00+00:00, map_index=-1, run_start_date=2024-12-22 22:05:13.046435+00:00, run_end_date=2024-12-22 22:05:13.247140+00:00, run_duration=0.200705, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=7, pool=default_pool, queue=default, priority_weight=3, operator=_PythonDecoratedOperator, queued_dttm=2024-12-22 22:05:09.732136+00:00, queued_by_job_id=3, pid=48348
+[2024-12-23T04:05:15.590+0600] {dagrun.py:823} ERROR - Marking run <DagRun weather_et_pipeline @ 2024-12-21 00:00:00+00:00: scheduled__2024-12-21T00:00:00+00:00, state:running, queued_at: 2024-12-22 22:05:09.611388+00:00. externally triggered: False> failed
+Dag run  in failure state
+Dag information:weather_et_pipeline Run id: scheduled__2024-12-21T00:00:00+00:00 external trigger: False
+Failed with message: task_failure
+[2024-12-23T04:05:15.591+0600] {dagrun.py:905} INFO - DagRun Finished: dag_id=weather_et_pipeline, execution_date=2024-12-21 00:00:00+00:00, run_id=scheduled__2024-12-21T00:00:00+00:00, run_start_date=2024-12-22 22:05:09.646244+00:00, run_end_date=2024-12-22 22:05:15.591226+00:00, run_duration=5.944982, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2024-12-21 00:00:00+00:00, data_interval_end=2024-12-22 00:00:00+00:00, dag_hash=7d14fdb01be81536b0b694497fd46298
+[2024-12-23T04:05:15.599+0600] {dag.py:4180} INFO - Setting next_dagrun for weather_et_pipeline to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T04:09:00.544+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T04:14:00.605+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T04:19:00.983+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T04:24:01.070+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T04:29:01.340+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T04:34:01.613+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T04:39:01.896+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T04:44:02.264+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T04:44:46.983+0600] {dag.py:4180} INFO - Setting next_dagrun for weather_et_pipeline to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+Dag run  in running state
+Dag information Queued at: 2024-12-22 22:44:46.973918+00:00 hash info: 7d14fdb01be81536b0b694497fd46298
+[2024-12-23T04:44:47.038+0600] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: weather_et_pipeline.extract_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:44:47.038+0600] {scheduler_job_runner.py:507} INFO - DAG weather_et_pipeline has 0/16 running and queued tasks
+[2024-12-23T04:44:47.039+0600] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: weather_et_pipeline.extract_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:44:47.041+0600] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: weather_et_pipeline.extract_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-12-23T04:44:47.042+0600] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='weather_et_pipeline', task_id='extract_weather_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-12-23T04:44:47.043+0600] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'extract_weather_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:44:47.047+0600] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'extract_weather_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:44:49.857+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:44:50.280+0600] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-12-23T04:44:50.281+0600] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:44:50.523+0600] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:44:50.666+0600] {task_command.py:467} INFO - Running <TaskInstance: weather_et_pipeline.extract_weather_data scheduled__2024-12-21T00:00:00+00:00 [queued]> on host AbrarsPC
+[2024-12-23T04:44:52.875+0600] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_et_pipeline', task_id='extract_weather_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=1, map_index=-1)
+[2024-12-23T04:44:52.882+0600] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=weather_et_pipeline, task_id=extract_weather_data, run_id=scheduled__2024-12-21T00:00:00+00:00, map_index=-1, run_start_date=2024-12-22 22:44:50.738534+00:00, run_end_date=2024-12-22 22:44:52.093080+00:00, run_duration=1.354546, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=9, pool=default_pool, queue=default, priority_weight=3, operator=_PythonDecoratedOperator, queued_dttm=2024-12-22 22:44:47.040587+00:00, queued_by_job_id=3, pid=53038
+[2024-12-23T04:44:53.102+0600] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: weather_et_pipeline.transform_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:44:53.103+0600] {scheduler_job_runner.py:507} INFO - DAG weather_et_pipeline has 0/16 running and queued tasks
+[2024-12-23T04:44:53.103+0600] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: weather_et_pipeline.transform_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:44:53.106+0600] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: weather_et_pipeline.transform_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-12-23T04:44:53.106+0600] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='weather_et_pipeline', task_id='transform_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-12-23T04:44:53.107+0600] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'transform_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:44:53.111+0600] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'transform_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:44:55.728+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:44:56.119+0600] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-12-23T04:44:56.120+0600] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:44:56.361+0600] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:44:56.495+0600] {task_command.py:467} INFO - Running <TaskInstance: weather_et_pipeline.transform_data scheduled__2024-12-21T00:00:00+00:00 [queued]> on host AbrarsPC
+[2024-12-23T04:44:57.528+0600] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_et_pipeline', task_id='transform_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=1, map_index=-1)
+[2024-12-23T04:44:57.537+0600] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=weather_et_pipeline, task_id=transform_data, run_id=scheduled__2024-12-21T00:00:00+00:00, map_index=-1, run_start_date=2024-12-22 22:44:56.561786+00:00, run_end_date=2024-12-22 22:44:56.762964+00:00, run_duration=0.201178, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=10, pool=default_pool, queue=default, priority_weight=2, operator=_PythonDecoratedOperator, queued_dttm=2024-12-22 22:44:53.104625+00:00, queued_by_job_id=3, pid=53050
+[2024-12-23T04:44:57.716+0600] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: weather_et_pipeline.load_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:44:57.716+0600] {scheduler_job_runner.py:507} INFO - DAG weather_et_pipeline has 0/16 running and queued tasks
+[2024-12-23T04:44:57.717+0600] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: weather_et_pipeline.load_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:44:57.720+0600] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: weather_et_pipeline.load_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-12-23T04:44:57.721+0600] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='weather_et_pipeline', task_id='load_weather_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2024-12-23T04:44:57.721+0600] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'load_weather_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:44:57.725+0600] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'load_weather_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:45:00.283+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:45:00.696+0600] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-12-23T04:45:00.697+0600] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:45:00.937+0600] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:45:01.084+0600] {task_command.py:467} INFO - Running <TaskInstance: weather_et_pipeline.load_weather_data scheduled__2024-12-21T00:00:00+00:00 [queued]> on host AbrarsPC
+[2024-12-23T04:45:02.733+0600] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_et_pipeline', task_id='load_weather_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=1, map_index=-1)
+[2024-12-23T04:45:02.742+0600] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=weather_et_pipeline, task_id=load_weather_data, run_id=scheduled__2024-12-21T00:00:00+00:00, map_index=-1, run_start_date=2024-12-22 22:45:01.150725+00:00, run_end_date=2024-12-22 22:45:02.019582+00:00, run_duration=0.868857, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=11, pool=default_pool, queue=default, priority_weight=1, operator=_PythonDecoratedOperator, queued_dttm=2024-12-22 22:44:57.718761+00:00, queued_by_job_id=3, pid=53062
+[2024-12-23T04:45:02.932+0600] {dagrun.py:823} ERROR - Marking run <DagRun weather_et_pipeline @ 2024-12-21 00:00:00+00:00: scheduled__2024-12-21T00:00:00+00:00, state:running, queued_at: 2024-12-22 22:44:46.973918+00:00. externally triggered: False> failed
+Dag run  in failure state
+Dag information:weather_et_pipeline Run id: scheduled__2024-12-21T00:00:00+00:00 external trigger: False
+Failed with message: task_failure
+[2024-12-23T04:45:02.933+0600] {dagrun.py:905} INFO - DagRun Finished: dag_id=weather_et_pipeline, execution_date=2024-12-21 00:00:00+00:00, run_id=scheduled__2024-12-21T00:00:00+00:00, run_start_date=2024-12-22 22:44:47.003642+00:00, run_end_date=2024-12-22 22:45:02.933376+00:00, run_duration=15.929734, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2024-12-21 00:00:00+00:00, data_interval_end=2024-12-22 00:00:00+00:00, dag_hash=7d14fdb01be81536b0b694497fd46298
+[2024-12-23T04:45:02.940+0600] {dag.py:4180} INFO - Setting next_dagrun for weather_et_pipeline to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+Dag run  in running state
+Dag information Queued at: 2024-12-22 22:48:42.626012+00:00 hash info: 7d14fdb01be81536b0b694497fd46298
+[2024-12-23T04:48:43.081+0600] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: weather_et_pipeline.extract_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:48:43.081+0600] {scheduler_job_runner.py:507} INFO - DAG weather_et_pipeline has 0/16 running and queued tasks
+[2024-12-23T04:48:43.082+0600] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: weather_et_pipeline.extract_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:48:43.084+0600] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: weather_et_pipeline.extract_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-12-23T04:48:43.085+0600] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='weather_et_pipeline', task_id='extract_weather_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-12-23T04:48:43.086+0600] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'extract_weather_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:48:43.090+0600] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'extract_weather_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:48:45.662+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:48:46.078+0600] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-12-23T04:48:46.079+0600] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:48:46.341+0600] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:48:46.484+0600] {task_command.py:467} INFO - Running <TaskInstance: weather_et_pipeline.extract_weather_data scheduled__2024-12-21T00:00:00+00:00 [queued]> on host AbrarsPC
+[2024-12-23T04:48:48.628+0600] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_et_pipeline', task_id='extract_weather_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=2, map_index=-1)
+[2024-12-23T04:48:48.636+0600] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=weather_et_pipeline, task_id=extract_weather_data, run_id=scheduled__2024-12-21T00:00:00+00:00, map_index=-1, run_start_date=2024-12-22 22:48:46.554002+00:00, run_end_date=2024-12-22 22:48:47.866079+00:00, run_duration=1.312077, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=12, pool=default_pool, queue=default, priority_weight=3, operator=_PythonDecoratedOperator, queued_dttm=2024-12-22 22:48:43.083311+00:00, queued_by_job_id=3, pid=53345
+[2024-12-23T04:48:48.973+0600] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: weather_et_pipeline.transform_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:48:48.973+0600] {scheduler_job_runner.py:507} INFO - DAG weather_et_pipeline has 0/16 running and queued tasks
+[2024-12-23T04:48:48.974+0600] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: weather_et_pipeline.transform_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:48:48.977+0600] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: weather_et_pipeline.transform_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-12-23T04:48:48.978+0600] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='weather_et_pipeline', task_id='transform_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-12-23T04:48:48.978+0600] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'transform_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:48:48.986+0600] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'transform_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:48:51.464+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:48:51.880+0600] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-12-23T04:48:51.881+0600] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:48:52.163+0600] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:48:52.310+0600] {task_command.py:467} INFO - Running <TaskInstance: weather_et_pipeline.transform_data scheduled__2024-12-21T00:00:00+00:00 [queued]> on host AbrarsPC
+[2024-12-23T04:48:53.380+0600] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_et_pipeline', task_id='transform_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=2, map_index=-1)
+[2024-12-23T04:48:53.389+0600] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=weather_et_pipeline, task_id=transform_data, run_id=scheduled__2024-12-21T00:00:00+00:00, map_index=-1, run_start_date=2024-12-22 22:48:52.386088+00:00, run_end_date=2024-12-22 22:48:52.615893+00:00, run_duration=0.229805, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=13, pool=default_pool, queue=default, priority_weight=2, operator=_PythonDecoratedOperator, queued_dttm=2024-12-22 22:48:48.975854+00:00, queued_by_job_id=3, pid=53358
+[2024-12-23T04:48:53.674+0600] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
+	<TaskInstance: weather_et_pipeline.load_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:48:53.675+0600] {scheduler_job_runner.py:507} INFO - DAG weather_et_pipeline has 0/16 running and queued tasks
+[2024-12-23T04:48:53.675+0600] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
+	<TaskInstance: weather_et_pipeline.load_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>
+[2024-12-23T04:48:53.678+0600] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: weather_et_pipeline.load_weather_data scheduled__2024-12-21T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-12-23T04:48:53.679+0600] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='weather_et_pipeline', task_id='load_weather_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2024-12-23T04:48:53.680+0600] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'load_weather_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:48:53.683+0600] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_et_pipeline', 'load_weather_data', 'scheduled__2024-12-21T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/weather_etl_pipeline.py']
+[2024-12-23T04:48:56.223+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/airflow/dags/weather_etl_pipeline.py
+[2024-12-23T04:48:56.637+0600] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-12-23T04:48:56.638+0600] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:48:56.900+0600] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-12-23T04:48:57.051+0600] {task_command.py:467} INFO - Running <TaskInstance: weather_et_pipeline.load_weather_data scheduled__2024-12-21T00:00:00+00:00 [queued]> on host AbrarsPC
+[2024-12-23T04:48:58.823+0600] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_et_pipeline', task_id='load_weather_data', run_id='scheduled__2024-12-21T00:00:00+00:00', try_number=2, map_index=-1)
+[2024-12-23T04:48:58.831+0600] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=weather_et_pipeline, task_id=load_weather_data, run_id=scheduled__2024-12-21T00:00:00+00:00, map_index=-1, run_start_date=2024-12-22 22:48:57.124338+00:00, run_end_date=2024-12-22 22:48:58.077534+00:00, run_duration=0.953196, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=14, pool=default_pool, queue=default, priority_weight=1, operator=_PythonDecoratedOperator, queued_dttm=2024-12-22 22:48:53.676969+00:00, queued_by_job_id=3, pid=53370
+[2024-12-23T04:48:59.129+0600] {dagrun.py:854} INFO - Marking run <DagRun weather_et_pipeline @ 2024-12-21 00:00:00+00:00: scheduled__2024-12-21T00:00:00+00:00, state:running, queued_at: 2024-12-22 22:48:42.626012+00:00. externally triggered: False> successful
+Dag run in success state
+Dag run start:2024-12-22 22:48:43.038574+00:00 end:2024-12-22 22:48:59.130754+00:00
+[2024-12-23T04:48:59.130+0600] {dagrun.py:905} INFO - DagRun Finished: dag_id=weather_et_pipeline, execution_date=2024-12-21 00:00:00+00:00, run_id=scheduled__2024-12-21T00:00:00+00:00, run_start_date=2024-12-22 22:48:43.038574+00:00, run_end_date=2024-12-22 22:48:59.130754+00:00, run_duration=16.09218, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2024-12-21 00:00:00+00:00, data_interval_end=2024-12-22 00:00:00+00:00, dag_hash=7d14fdb01be81536b0b694497fd46298
+[2024-12-23T04:48:59.137+0600] {dag.py:4180} INFO - Setting next_dagrun for weather_et_pipeline to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T04:49:02.530+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T04:54:02.744+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-23T04:59:03.013+0600] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
