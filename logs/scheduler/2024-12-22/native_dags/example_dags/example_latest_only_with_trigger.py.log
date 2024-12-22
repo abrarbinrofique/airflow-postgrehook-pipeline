@@ -1147,3 +1147,10 @@
 [2024-12-23T05:01:33.443+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:33.443+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T05:01:33.476+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:33.475+0600] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-12-22 16:00:00+00:00, run_after=2024-12-22 20:00:00+00:00
 [2024-12-23T05:01:33.505+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.120 seconds
+[2024-12-23T05:02:42.741+0600] {processor.py:186} INFO - Started process (PID=56992) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-12-23T05:02:42.748+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-12-23T05:02:42.750+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:42.749+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-12-23T05:02:42.765+0600] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-12-23T05:02:42.793+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:42.792+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:02:42.828+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:42.828+0600] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-12-22 16:00:00+00:00, run_after=2024-12-22 20:00:00+00:00
+[2024-12-23T05:02:42.860+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.130 seconds

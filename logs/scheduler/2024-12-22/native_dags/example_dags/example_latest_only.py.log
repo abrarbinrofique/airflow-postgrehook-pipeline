@@ -1147,3 +1147,10 @@
 [2024-12-23T05:01:37.069+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:37.069+0600] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T05:01:37.101+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:01:37.101+0600] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-12-22 16:00:00+00:00, run_after=2024-12-22 20:00:00+00:00
 [2024-12-23T05:01:37.130+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.118 seconds
+[2024-12-23T05:02:46.137+0600] {processor.py:186} INFO - Started process (PID=57000) to work on /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-12-23T05:02:46.144+0600] {processor.py:914} INFO - Processing file /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-12-23T05:02:46.146+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:46.145+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-12-23T05:02:46.159+0600] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-12-23T05:02:46.184+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:46.183+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T05:02:46.217+0600] {logging_mixin.py:190} INFO - [2024-12-23T05:02:46.216+0600] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-12-22 16:00:00+00:00, run_after=2024-12-22 20:00:00+00:00
+[2024-12-23T05:02:46.248+0600] {processor.py:208} INFO - Processing /home/abr/Airfow/weather/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.121 seconds
